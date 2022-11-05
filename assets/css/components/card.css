@@ -1,0 +1,95 @@
+/*-----------------------------------*\
+  #card.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+
+
+
+
+
+.card {
+  box-shadow: 0 0 0 var(--jet);
+  display: flex;
+  transition: var(--transition-1);
+}
+
+.card-md:is(:hover, :focus-within) { box-shadow: 5px 5px 0 var(--jet); }
+
+:is(.card-lg, .card-sm):is(:hover, :focus-within) {
+  box-shadow: 3px 3px 0 var(--jet);
+}
+
+.card,
+.card-media { border: 2px solid var(--jet); }
+
+.card-lg { padding: 25px; }
+
+.card-md { padding: 30px; }
+
+.card-sm {
+  padding: 10px;
+  align-items: center;
+  gap: 15px;
+}
+
+.card-lg,
+.card-md {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-lg .card-media {
+  width: 100px;
+  height: 100px;
+}
+
+.card-md .card-media {
+  width: 70px;
+  height: 70px;
+}
+
+.card-sm .card-media {
+  width: 50px;
+  height: 50px;
+}
+
+.card-media {
+  background-color: var(--white);
+  color: var(--jet);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+
+
+/**
+ * RESPONSIVE CONTAINER QUERY
+ */
+
+.card-container { container-type: inline-size; }
+
+@container (min-width: 500px) {
+  .card-lg,
+  .card-md { flex-direction: row; }
+}
+
+
+
+/**
+ * RESPONSIVE MEDIA QUERY
+ */
+
+@media (min-width: 768px) {
+
+  .card-lg { padding: 35px; }
+
+  .card-md { padding: 40px; }
+
+  .card-sm { padding: 15px; }
+
+}

@@ -1,0 +1,69 @@
+/*-----------------------------------*\
+  #service.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+ 
+/**
+ * TABLE OF CONTENT
+ *
+ * COMPONENTS
+ * Card...........................Cards style
+ * Btn............................Button style
+ *
+ * MAIN CONTENT
+ * Service........................Service style
+ * Media queries..................Responsive for all devices
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #COMPONENTS
+\*-----------------------------------*/
+
+@import url('../components/card.css');
+@import url('../components/btn.css');
+
+
+
+
+
+/*-----------------------------------*\
+  #SERVICES
+\*-----------------------------------*/
+
+.service { padding-block-start: calc(var(--section-padding) + 60px); }
+
+.service-list {
+  display: grid;
+  gap: 25px;
+}
+
+.card-title { margin-block-end: 10px; }
+
+.card ion-icon { font-size: 3.2rem; }
+
+.card .body-sm { color: var(--jet); }
+
+
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 768px screen
+ */
+
+@media (min-width: 768px) {
+
+  .service-list { grid-template-columns: 1fr 1fr; }
+
+}

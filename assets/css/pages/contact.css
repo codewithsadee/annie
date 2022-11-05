@@ -1,0 +1,150 @@
+/*-----------------------------------*\
+  #service.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2022 codewithsadee
+ */
+ 
+/**
+ * TABLE OF CONTENT
+ *
+ * COMPONENTS
+ * Btn............................Buttons style
+ *
+ * MAIN CONTENT
+ * Contact........................Contact style
+ * Media queries..................Responsive for all devices
+ */
+
+
+
+
+
+/*-----------------------------------*\
+  #COMPONENTS
+\*-----------------------------------*/
+
+@import url("../components/btn.css");
+
+
+
+
+
+/*-----------------------------------*\
+  #CONTACT
+\*-----------------------------------*/
+
+.contact {
+  background-color: var(--jet);
+  padding-block-start: calc(var(--section-padding) + 60px);
+}
+
+.contact .container {
+  display: grid;
+  gap: 48px;
+}
+
+.contact-form {
+  background-color: var(--white);
+  padding: 25px;
+}
+
+.contact-text { margin-block: 5px 30px; }
+
+.contact .label { margin-block-end: 8px; }
+
+.input-field {
+  padding: 10px 12px;
+  border: 1px solid var(--jet);
+  margin-block-end: 24px;
+  outline: none;
+  transition: box-shadow var(--transition-1);
+}
+
+.input-field:focus { box-shadow: inset 0 0 0 1px var(--jet); }
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+  max-height: 150px;
+}
+
+
+.contact-list .contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contact-list .contact-item:not(:last-child) { margin-block-end: 35px; }
+
+.contact-list .item-icon {
+  color: var(--jet);
+  width: 55px;
+  height: 55px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.contact-list .item-icon ion-icon { font-size: 2.5rem; }
+
+.contact .label-lg {
+  color: var(--white_a80);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-400);
+  margin-block-end: 5px;
+}
+
+.contact .body-lg {
+  color: var(--white);
+  word-break: break-all;
+}
+
+
+
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+/**
+ * responsive for large than 768px screen
+ */
+
+@media (min-width: 768px) {
+
+  .contact-form { padding: 35px; }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+}
+
+
+
+
+
+/**
+ * responsive for large than 992px screen
+ */
+
+@media (min-width: 992px) {
+
+  .contact .container {
+    grid-template-columns: 1fr 0.9fr;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-content {
+    width: 70%;
+    margin-inline: auto;
+  }
+
+}

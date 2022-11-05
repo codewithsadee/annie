@@ -1,0 +1,241 @@
+Annie - Web Developer Based on Los Angeles
+
+This is a personal portfolio html template made by codewithsadee
+
+Annie | Services
+
+Annie | Portfolio
+
+Annie | Contact
+
+
+
+#---------- HEADER ----------#
+
+alt = Annie home
+
+Home
+Services
+Portfolio
+Contact
+
+Contact Now
+
+aria-label = menu
+<ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+
+
+
+#---------- HERO ----------#
+
+👋, My name is Annie
+
+I'm a Developer
+
+Based in Los Angeles, California.
+
+Let's Start
+
+alt = Annie, the blonde, dressed in a green hoodie with a smile on her face
+
+
+
+#---------- CLIENTS ----------#
+
+alt = clients
+
+
+
+#---------- ABOUT ----------#
+
+alt = Annie, the blonde, dressed in a black tops with a smile on her face
+
+I'm a Freelancer Front-end Developer with over 3 years of experience.
+
+I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.
+
+285+
+Projet Completed
+
+190+
+Happy Clients
+
+Contact Me
+
+Portfolio
+
+
+
+#---------- SKILLS ----------#
+
+My Skills
+
+bg-color = hsl(177, 39%, 72%)
+
+<ion-icon name="logo-html5"></ion-icon>
+HTML
+
+bg-color = hsl(41, 99%, 64%)
+
+<ion-icon name="logo-css3"></ion-icon>
+CSS
+
+bg-color = hsl(19, 97%, 85%)
+
+<ion-icon name="logo-react"></ion-icon>
+React JS
+
+bg-color = hsl(221, 100%, 79%)
+
+<ion-icon name="logo-angular"></ion-icon>
+Angular
+
+bg-color = hsl(76, 39%, 72%)
+
+<ion-icon name="logo-apple"></ion-icon>
+iOs App
+
+bg-color = hsl(245, 100%, 90%)
+
+<ion-icon name="logo-android"></ion-icon>
+App Dev
+
+alt = Annie, the blonde, dressed in a green hoodie with a smile on her face
+
+
+
+#---------- CTA ----------#
+
+Intrested working with me?
+
+Contact Now
+
+
+
+#---------- TESTIMONIALS ----------#
+
+Testimonial
+
+alt = Jennifer Lutheran
+
+Dolor lorem is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+
+Jennifer Lutheran
+CEO at pxdraft
+
+
+
+#---------- FOOTER ----------#
+
+<ion-icon name="logo-facebook"></ion-icon>
+<ion-icon name="logo-twitter"></ion-icon>
+<ion-icon name="logo-instagram"></ion-icon>
+<ion-icon name="logo-linkedin"></ion-icon>
+<ion-icon name="logo-pinterest"></ion-icon>
+
+&copy; 2022 copyright all right reserved
+
+
+
+#---------- SERVICES ----------#
+
+My Services
+
+bg-color = hsl(177, 39%, 72%)
+
+<ion-icon name="phone-portrait-outline" aria-hidden="true"></ion-icon>
+
+Web Design
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+bg-color = hsl(41, 99%, 64%)
+
+<ion-icon name="laptop-outline" aria-hidden="true"></ion-icon>
+
+Development
+
+bg-color = hsl(19, 97%, 85%)
+
+<ion-icon name="stats-chart-outline" aria-hidden="true"></ion-icon>
+
+SEO Marketing
+
+bg-color = hsl(221, 100%, 79%)
+
+<ion-icon name="shapes-outline" aria-hidden="true"></ion-icon>
+
+Web Design
+
+bg-color = hsl(76, 39%, 72%)
+
+<ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
+
+Development
+
+bg-color = hsl(245, 100%, 90%)
+
+<ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
+
+SEO Marketing
+
+
+
+#---------- PORTFOLIO ----------#
+
+Latest Projects
+
+alt = Website Design for Marketing Agency Startup
+
+aria-label = More about Website Design for Marketing Agency Startup
+
+<ion-icon name="arrow-forward-sharp" aria-hidden="true"></ion-icon>
+
+Web Design
+
+Website Design for Marketing Agency Startup
+
+I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores
+
+View Project
+
+
+
+#---------- CONTACT ----------#
+
+Get in touch
+Our friendly team would love to hear from you.
+
+First name 
+placeholder = Name *
+
+Your Email 
+placeholder = Email *
+
+Subject 
+placeholder = Subject *
+
+Your message 
+placeholder = Your message *
+
+Send Message
+
+bg-color = hsl(177, 39%, 72%)
+
+<ion-icon name="call" aria-hidden="true"></ion-icon>
+Phone
++01 123 654 8096
+
+bg-color = hsl(41, 99%, 64%)
+
+<ion-icon name="mail" aria-hidden="true"></ion-icon>
+Mail
+info@domainname.com
+
+bg-color = hsl(19, 97%, 85%)
+
+<ion-icon name="location" aria-hidden="true"></ion-icon>
+Visit My Studio
+
+Warnwe Park Streetperrine,
+FL 33157 New York City
